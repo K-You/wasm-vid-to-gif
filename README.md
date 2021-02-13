@@ -1,6 +1,9 @@
-# New Project
+# WASM Video to gif
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+Convert an uploaded video to a gif. 
+Using FFMPEG utility program. 
+Web Assembly ftw
+
 
 ## Available Scripts
 
