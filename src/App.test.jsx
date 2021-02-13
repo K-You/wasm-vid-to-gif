@@ -1,12 +1,12 @@
-import * as React from 'react';
 import { render } from '@testing-library/react';
 import { expect } from 'chai';
+import * as React from 'react';
 import App from './App';
 
 describe('<App>', () => {
-  it('renders learn react link', () => {
+  it('renders Loading at first', () => {
     const { getByText } = render(<App />);
-    const linkElement = getByText(/learn react/i);
-    expect(document.body.contains(linkElement));
+    const loadingElement = getByText(/Loading/i);
+    expect(document.body.contains(loadingElement));
   });
 });
